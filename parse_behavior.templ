@@ -1,11 +1,8 @@
-Value POLICY (\S+)
+Value Filldown POLICY (\S+)
 Value CLASSIFIER (\S+)
 Value BEHAVIOR (\S+)
 
 Start
-  ^\s+Policy:\s${POLICY} -> ParseClassifier
-
-ParseClassifier
+  ^\s+Policy:\s${POLICY}
   ^\s+Classifier:\s${CLASSIFIER}
   ^\s+Behavior:\s${BEHAVIOR} -> Record
-  ^\s+Policy:\s${POLICY} -> ParseClassifier
