@@ -1,0 +1,27 @@
+   Classifier: vlan181
+    Operator: AND
+    Rule(s) : if-match vlan-id 181
+
+
+   Classifier: 12345
+    Operator: AND
+    Rule(s) : if-match vlan-id 182
+
+
+   Classifier: 123456
+    Operator: AND
+    Rule(s) : if-match vlan-id 1616
+
+
+   Classifier: vlan181_tcp
+    Operator: AND
+    Rule(s) : if-match vlan-id 181
+
+              if-match acl 3010
+
+
+   Classifier: vlan181_udp
+    Operator: AND
+    Rule(s) : if-match vlan-id 181
+
+              if-match acl 3011

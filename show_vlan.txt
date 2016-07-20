@@ -1,0 +1,48 @@
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Eth1/1, Eth1/2, Eth1/3
+                                                Eth1/5, Eth1/6, Eth1/7
+2    VLAN0002                         active    Po100, Eth1/49, Eth1/50
+3    VLAN0003                         active    Po100, Eth1/49, Eth1/50
+4    VLAN0004                         active    Po100, Eth1/49, Eth1/50
+5    VLAN0005                         active    Po100, Eth1/49, Eth1/50
+6    VLAN0006                         active    Po100, Eth1/49, Eth1/50
+7    VLAN0007                         active    Po100, Eth1/49, Eth1/50
+8    VLAN0008                         active    Po100, Eth1/49, Eth1/50
+9    VLAN0009                         active
+10   test_segment                     active    Po100, Eth1/49, Eth1/50
+11   VLAN0011                         active    Po100, Eth1/49, Eth1/50
+12   VLAN0012                         active    Po100, Eth1/49, Eth1/50
+13   VLAN0013                         active    Po100, Eth1/49, Eth1/50
+14   VLAN0014                         active    Po100, Eth1/49, Eth1/50
+15   VLAN0015                         active    Po100, Eth1/49, Eth1/50
+16   VLAN0016                         active    Po100, Eth1/49, Eth1/50
+17   VLAN0017                         active    Po100, Eth1/49, Eth1/50
+18   VLAN0018                         active    Po100, Eth1/49, Eth1/50
+19   VLAN0019                         active    Po100, Eth1/49, Eth1/50
+99   native                           active
+
+VLAN Type  Vlan-mode
+---- ----- ----------
+1    enet  CE
+2    enet  CE
+3    enet  CE
+4    enet  CE
+5    enet  CE
+6    enet  CE
+7    enet  CE
+8    enet  CE
+9    enet  CE
+10   enet  CE
+11   enet  CE
+12   enet  CE
+13   enet  CE
+14   enet  CE
+15   enet  CE
+16   enet  CE
+17   enet  CE
+18   enet  CE
+19   enet  CE
+99   enet  CE
+Primary  Secondary  Type             Ports
+-------  ---------  ---------------  -------------------------------------------
