@@ -7,14 +7,6 @@
         CIR 10500 (Kbps), CBS 775000 (Byte)
         Conform Action : pass
         Exceed  Action : discard
-   Classifier: vlan181_udp
-    Operator: AND
-     Behavior: agg_40M_udp
-        Committed Access Rate:
-        CIR 42000 (Kbps), CBS 3100000 (Byte)
-        Conform Action : pass
-        Exceed  Action : discard
-        car aggregation
 
   Policy: Test_agg_40M
    Classifier: vlan181_tcp
@@ -33,12 +25,5 @@
         Conform Action : pass
         Exceed  Action : discard
         car aggregation
-   Classifier: 123456
-    Operator: AND
-     Behavior: 123456
-        Committed Access Rate:
-        CIR 10500 (Kbps), CBS 775000 (Byte)
-        Conform Action : pass
-        Exceed  Action : discard
 
 Total policy number is 2

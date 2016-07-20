@@ -1,8 +1,7 @@
-Value CLASSIFIER (\S+)
-Value VLAN (\d+)
-
+Value Required classifier (\S+)
+Value Required vlan (\d+)
 
 Start
-  ^\s+Classifier:\s${CLASSIFIER}
-  ^\s+Rule\(s\)\s:\sif\-match\svlan\-id\s${VLAN} -> Record
+  ^\s+Classifier:\s${classifier}
+  ^\s+Rule\(s\) : if-match vlan-id ${vlan} -> Record
 
