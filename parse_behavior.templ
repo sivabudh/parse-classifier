@@ -1,0 +1,9 @@
+Value POLICY (\S+)
+Value CLASSIFIER (\S+)
+Value BEHAVIOR (\d+)
+
+Start
+  ^\s+Policy:\s${POLICY}
+  ^\s+Classifier:\s${CLASSIFIER}
+  ^\s+Behavior:\s${BEHAVIOR} -> Record
+
