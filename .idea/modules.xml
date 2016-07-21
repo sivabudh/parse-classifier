@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/apsched.iml" filepath="$PROJECT_DIR$/.idea/apsched.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/parse_classifier.iml" filepath="$PROJECT_DIR$/.idea/parse_classifier.iml" />
     </modules>
   </component>
 </project>
